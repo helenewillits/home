@@ -1,1 +1,90 @@
+/* ----------------- HTML TAGS ----------------- */
+body {
+    margin: 0;
+    background-color: #fdfbf6;
+    color: #39395a; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: #fdfbf6c4;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.87);
+}
+h1 {font-size: 40px;
+    text-align: center;
+    color: #39395a; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h2 {color: #39395a; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h3 {color: #39395a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h4 {color: #404070; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h5 {color: #404070; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h6 {color: #706898; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #706898; 
+    line-height: 150%;
+    font-size: medium;
+}
+hr {
+    width: 5%;
+    border-style: none;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-bottom-color: #EBCFC4;
+}
+ul{
+    margin-top: -10px;
+    color: #706898; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+/* ----------------- CLASS TAGS ----------------- */
+.center{
+    margin: auto;
+}
+.center-text{
+    text-align: center;
+}
+.navbar{
+    position: fixed;
+    background-color: #fdfbf6;
+}
+.navigation-bar{
+    list-style-type: none;
+    margin:0;
+    padding: 20;
+    text-align: right;
+}
+.nav-bar-item{
+    display: inline;
+}
+.nav-button{
+    border-style: none;
+    background-color: none;
+    padding: 20px 50px 20px 50px;
+}
+.project-content-table{
+    width: 70%;
+    margin: auto;
+}
+
+/* ----------------- ID TAGS ----------------- */
+
+#table-test{
+    border: solid;
+    
+    border-width: 10px;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
