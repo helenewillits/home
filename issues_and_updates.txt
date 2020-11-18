@@ -1,0 +1,10 @@
+
+Home
+- video - doesn't play
+- animation?
+
+About Me
+- tables that don't line up nicely
+
+Resume
+- should download, rather than navigating away

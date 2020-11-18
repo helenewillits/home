@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Helene Willits - About Me</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='css/styles.css'>
+        <link rel='icon' href='images/favicon.ico'>
+        <script src='main.js'></script>
+    </head>
+
+    <style>
+        #main-columns{
+            margin-right: 5%;
+        }
+        #about-me-info{
+            width: 50%;
+        }
+        #resume-button{
+            position: absolute;
+            left: 60%;
+        }
+        #linkedin-button{
+            position: absolute;
+            left: 80%;
+        }
+        .dates{
+            text-align: right;
+            list-style-type: none;
+        }
+    </style>
+
+    <body>
+        <!-- navigation bar -->
+        <table class="navbar" width="100%">
+            <tr>
+                <td>
+                    <h2>Helene Willits</h2>
+                </td>
+                <td>
+                    <ul class="navigation-bar">
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='index.html'">Home</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='about-me.html'">About Me</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='resume.html'">Resume</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='portfolio.html'">Portfolio</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='work-experience.html'">Work Experience</button></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+
+        <table id="main-columns" cellpadding="30px">
+            <tr>
+                <!-- column 1 : image-->
+                <td>
+                    <img src="images/profile_pic.jpg" position="absolute" width="100%">
+                </td>
+                <!-- column 2 : info-->
+                <td id="about-me-info">
+                    <h1>About Helene</h1>
+                    <p> 
+                        I am a highly motivated student with experience working on projects throughout their lifecycle. 
+                        In addition, my focused world ethic and collaboration skills make me a great member of any team. 
+                        As a student, my curiosity allows me to excel as an intern. I am currently seeking a summer internship 
+                        where I can use my technical knowledge and critical problem-solving skills to design efficient solutions to team projects.
+                    </p>
+                    
+                    <h3>Education</h3>
+                    <p>
+                        I am a third year Computer Science B.S. Undergraduate at Cal Poly San Luis Obispo.
+                        <strong>GPA: 3.49</strong>
+                    </p>
+                    
+                    <table width="100%">
+                        <tr>
+                            <td><h3>Skills</h3></td>
+                            <td><h3>Lanugages</h3></td>
+                        </tr> 
+                        <tr>
+                            <td> <!-- Skills -->
+                                <ul>
+                                    <li>Focused Work Ethic</li>
+                                    <li>Excellent Communication</li>
+                                    <li>Strong Teamwork</li>
+                                    <li>Creativity (see my <a href='personal-projects.html'>personal projects</a></li>
+                                    <li>Curiosity</li>
+                                </ul>
+                            </td>
+                            <td> <!-- Languages -->
+                                <ul>
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                    <li>C</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <h3>Coding Experience</h3>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>SLO Hacks</li>
+                                    <li>AthenaHacks</li>
+                                    <li>CP Racing Formula Aerodynamics Team</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="dates">
+                                    <li>2020</li>
+                                    <li>2019</li>
+                                    <li>2018-2019</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <h3>Coursework</h3>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Discrete Structures</li>
+                                    <li>Systems Programming, C</li>
+                                    <li>Computer Organization, C</li>
+                                    <li>OOP and Cohesive Design, Java</li>
+                                    <li>Data Structures, Python</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="dates">
+                                    <li>CPE 348</li>
+                                    <li>CPE 357</li>
+                                    <li>CPE 225</li>
+                                    <li>CPE 203</li>
+                                    <li>CPE 202</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h3>Engineering Projects</h3>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Society of Women Engineers: Team Tech with Boeing</li>
+                                    <li>ACCO Engineered Systems Building Controls Intern</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="dates">
+                                    <li>2018-2019</li>
+                                    <li>2019</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+        
+                    <br><br>
+                    <div class="center">
+                        <button id="resume-button" onclick="window.location.href='resume.html'">See My Complete Resume</button>
+                        <img id="linkedin-button" src="images/linkedin.png" height="40px" onclick="window.location.href='https://www.linkedin.com/in/helene-willits-22101399/'">
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+        <br><br>
+    </body>
+</html>
