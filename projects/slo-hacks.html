@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Helene Willits - SLO Hacks</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='../css/styles.css'>
+        <link rel='icon' href='images/favicon.ico'>
+        <script src='main.js'></script>
+        
+        <style>
+            div{
+                margin: auto;
+                text-align: center;
+            }
+            #footer_pictures{
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navigation bar -->
+        <table class="navbar" width="100%">
+            <tr>
+                <td>
+                    <h2>Helene Willits</h2>
+                </td>
+                <td>
+                    <ul class="navigation-bar">
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='../index.html'">Home</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='../about-me.html'">About Me</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='../resume.html'">Resume</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='../portfolio.html'">Portfolio</button></li>
+                        <li class="nav-bar-item"><button class="nav-button" onclick="window.location.href='../work-experience.html'">Work Experience</button></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+
+        <br><br>
+        <h1>SLO Hacks</h1>
+        <br><hr><br><br><br>
+
+        <div>
+            <table class="project-content-table" cellpadding="20px">
+                <tr>
+                    <td><img src="../images/slohacks02.jpg" width="100%"></td>
+                    <td class="center-text" width="40%">
+                        <p>Our all-female team developed an app that allows users to increase their productivity by setting personal 
+                            goals and betting against themselves. Users gain success points for every challenge that they win. The 
+                            money that the user bet against themselves goes to charity for incomplete challenges. In the future, we 
+                            planned to allow users to compete with their friends for the highest success scores, as well as for the 
+                            highest donation rates.</p>
+                        <br>
+                        <button onclick="window.location.href='https://devpost.com/software/accountabuddy'">See Our Project on DevPost</button>
+                        <br><br>
+                    </td>
+                </tr>
+            </table>
+            <table class="project-content-table" cellpadding="20px">
+                <tr>
+                    <td>
+                        <h2>Group Organization</h2>
+                        <p>I acted as a group organizer, planning what components needed to be implemented, what 
+                            each member was working on, and what priorities our group needed to focus on. I also 
+                            made sure to check in with each group member to help them stay on track and continue 
+                            to make consistent progress. My perseverance in the final minutes leading up to the 
+                            project presentation was a critical move in allowing our team to present a working 
+                            product on the event floor.</p>
+                        <h2>Backend Design</h2>
+                        <p>I developed the backend for the android app using <strong>Java</strong> with <strong>Android Studio</strong>. I designed the 
+                            stucture of the app, making sure to use proper cohesion when constructing classes and objects.</p>
+                        <h2>Frontend Design</h2>
+                        <p>I developed the frontend for features that allow users to choose a charity, view and modify 
+                            their active challenges, and navigate between pages.</p>
+                    </td>
+                    <td width="40%">
+                        <video autoplay loop muted width="100%">
+                            <source src="../images/slohacks-presentation.mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
+            <table class="project-content-table" cellpadding="20px">
+                <tr>
+                    <td width="50%">
+                        <img src="../images/slohacks-app-plan.png" width="100%">
+                    </td>
+                    <td>
+                        <h2>Obstacles</h2>
+                        <p>Working primarily on the backend of the app, I set out to use <strong>XPRING's XRP</strong> technology to allow for 
+                            money transfers on the app. I encountered obstacles with implementing XRP due to the minimal 
+                            documentation available on the technology with the gradle environment of Android Studio, as opposed 
+                            to maven. Due to the time constraints of the hackathon, our team decided to focus on implementing 
+                            other features of the app for presentation.</p>
+                    </td>
+                </tr>
+            </table>
+            <div id="footer_pictures">
+                <img src="../images/slohacks01.jpg" height="100%">
+                <img src="../images/slohacks04.jpg" height="100%">
+                <img src="../images/slohacks03.jpg" height="100%">  
+            </div>
+            <br><br>
+        </div>
+    </body>
+</html>
