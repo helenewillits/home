@@ -75,6 +75,9 @@ ul{
     width: 70%;
     margin: auto;
 }
+.cli {
+    vertical-align:top;
+ }
 
 /* ----------------- ID TAGS ----------------- */
 
